@@ -11,3 +11,6 @@ WPF Template
 WPF Controls look is based on templates
 Default Templates are defined by OS themes
 Template defines a key and a target type
+
+Skins allow to change the appearance of an application in the runtime
+Skins are supported because of powerful resources, style and template systems in WPF

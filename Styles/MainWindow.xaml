@@ -17,8 +17,18 @@
             <Setter Property="Foreground" Value="Red"/>
         </Style>
     </Window.Resources>
-    <Grid Margin="6">
-        <Button x:Name="btnSubmit" Content="FirstButton" Template="{StaticResource RoundButton}"/>
+    <Grid Margin="6" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnSubmit" Grid.Row="0" Grid.Column="0" Content="FirstButton" Template="{StaticResource RoundButton}"/>
         <!--<Button x:Name="btnSubmit2" Content="Second Button"  Style="{StaticResource BtnStyle}"/>-->
 
     </Grid>

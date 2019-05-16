@@ -1,0 +1,6 @@
+﻿User Control is a logical reusable bunch of controls which are composed somehow and have a logical interconnection between them
+10 buttons and a textbox used in many places , like partial views
+
+
+Custom Control separate control is like a button or progress bar.
+No such control in wpf out of a box
