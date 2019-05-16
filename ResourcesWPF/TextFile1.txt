@@ -1,0 +1,6 @@
+﻿cONTEXT, Resource, embedded resource
+
+binary resource
+Content: Looses resources on disl
+EmbeddedResource: Embeded in assembly
+Resource-Embed in assembly, but with extended wpf support

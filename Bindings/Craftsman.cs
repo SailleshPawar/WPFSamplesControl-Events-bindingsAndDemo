@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Bindings
@@ -14,7 +15,11 @@ namespace Bindings
 
         public string Name { get; set; }
         public string LastName { get; set; }
-        public int Age { get => _age;
+        public int Age {
+            get {
+                Thread.Sleep(3000);
+               return _age;
+            }
             set {  
                 _age = value;
                 OnPropertyChanged();

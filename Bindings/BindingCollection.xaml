@@ -30,7 +30,7 @@
                         Text="{Binding Name}" />
 
                     <TextBlock VerticalAlignment="Center" Text="{Binding LastName}" x:Name="LastName"  Grid.Row="1" Grid.Column="1" Width="120"/>
-                    <TextBox VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" x:Name="Age" Text="{Binding Age}" Width="120"/>
+                    <TextBox VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" x:Name="Age" Text="{Binding Age,IsAsync=True}" Width="120"/>
                </Grid>
             </StackPanel>
             
@@ -38,7 +38,7 @@
     </Window.Resources>
 
     <StackPanel>
-        <ListBox ItemTemplate="{StaticResource  CraftmanTemplate}" ItemsSource="{Binding Craftsman}" Margin="25"/>
+        <ListBox  ItemTemplate="{StaticResource  CraftmanTemplate}" ItemsSource="{Binding Craftsman}" Margin="25"/>
         <Button Width="120" Height="40" x:Name="btnSubmit" Content="Add Craftman" Grid.Column="0" Click="BtnSubmit_Click" />
     </StackPanel>
 </Window>
