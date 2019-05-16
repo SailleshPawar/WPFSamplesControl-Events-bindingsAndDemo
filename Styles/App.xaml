@@ -1,13 +1,12 @@
-﻿<Application x:Class="ResourcesWPF.App"
+﻿<Application x:Class="Styles.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ResourcesWPF"
-             StartupUri="LogicalResource.xaml">
+             xmlns:local="clr-namespace:Styles"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="DIctionaries/Colors.xaml"/>
-                <ResourceDictionary Source="DIctionaries/SolidColorBrushes.xaml"/>
+                <ResourceDictionary Source="ControlTemplates/RoundButtonTemplate.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

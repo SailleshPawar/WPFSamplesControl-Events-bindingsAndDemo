@@ -1,6 +1,23 @@
 ﻿cONTEXT, Resource, embedded resource
 
-binary resource
+binary resource// images
+logical 
 Content: Looses resources on disl
 EmbeddedResource: Embeded in assembly
 Resource-Embed in assembly, but with extended wpf support
+
+Logical Resources
+DataTemplate listbox
+ResourceDictionary implements IDictionary, lazy loading intialization of resources
+
+Resource LookUp
+
+search in resource dictionary
+earch parent until reaches the root element
+applicaton scope
+theme
+system
+
+Resource Dictionary
+
+put resources dictionarties in separate XAML files

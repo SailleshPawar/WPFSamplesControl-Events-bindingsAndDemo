@@ -1,0 +1,13 @@
+﻿Template: help the chane the look of contaols
+Trigger make styles, template and binding reactive
+SKins allows the look of wpf application on the fly
+
+Style:
+are based on resource system can be shared and applied muluplte time
+like example all button should have same style. We can use style to be used by all buttons.
+
+
+WPF Template
+WPF Controls look is based on templates
+Default Templates are defined by OS themes
+Template defines a key and a target type
